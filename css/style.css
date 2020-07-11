@@ -1,0 +1,505 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {}
+
+a,
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container-myfluid {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.mycontainer {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.avt span,
+.logo a {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #fff;
+}
+
+.avt img {
+    margin: 4px 0;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.dropdown-box {
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    background: #333;
+    padding: 0 1rem;
+    right: 0;
+    top: 110%;
+    width: 50%;
+    transition: 0.3s;
+}
+
+.shavt {
+    height: auto;
+}
+
+.account .dropdown {
+    text-align: right;
+}
+
+header {
+    background: #333;
+}
+
+.avt {
+    background: transparent;
+    border: 0;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    cursor: pointer;
+}
+
+.avt:focus {
+    background-color: transparent;
+    border: 0;
+    box-shadow: unset;
+}
+
+.flexer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cc {
+    justify-content: center;
+    align-items: center;
+}
+
+a.tweet,
+.welcome_txt {
+    background: #5A87FF;
+    padding: 1rem;
+    border-radius: 38px;
+}
+
+.welcome_txt {
+    color: #fff;
+}
+
+a.tweet:hover {
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+.tweeter .cc {
+    height: 80vh;
+}
+
+.avt span {
+    margin-left: 1%;
+}
+
+a.drop-item {
+    display: block;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #888282;
+    text-decoration: none;
+}
+
+.body {
+    padding: 4rem 0;
+}
+
+.tit h2 {
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+
+.aditem a {
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 18px;
+    background: #FF9D9D;
+    color: #fff;
+    width: 34%;
+    padding: 0.5rem;
+    border-radius: 23px;
+    display: block;
+}
+
+a.albtn {
+    background: #88A5F2;
+    width: 14%;
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 39px;
+}
+
+.aditem {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.imgprt img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.aditem span {
+    font-weight: 600;
+}
+
+.imgprt label,
+.sbtn {
+    display: inline-block;
+    border: 1px solid #707070;
+    padding: 0.8rem;
+    border-radius: 23px;
+    width: 26%;
+    text-align: center;
+    margin-left: 4%;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+input#file {
+    display: none;
+}
+
+.adfrm span {
+    width: 70%;
+    border: 1px solid #707070;
+    padding: 0.5rem;
+}
+
+button.sbtn {
+    width: 50%;
+    margin: 2rem auto;
+    background: transparent;
+    display: block;
+}
+
+.frprt label {
+    width: 20%;
+    line-height: 3em;
+}
+
+.frprt input {
+    width: 75%;
+    margin-left: 5%;
+}
+
+.frprt label,
+.frprt input {
+    height: 3em;
+}
+
+sup {
+    color: red;
+    font-weight: 900;
+}
+
+.frprt input {
+    padding: 6px;
+}
+
+.frprt {
+    margin-left: 5%;
+}
+
+.msbtn {
+    width: 20%;
+    background: #FF9F3E;
+    color: #fff;
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 23px;
+    margin: 5rem auto;
+}
+
+.imgprt.adprt {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.adfrm {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.adprt .msbtn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sfrm {
+    margin: 4rem 0;
+}
+
+.sfrm h3 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.sfrm label {
+    width: 20%;
+    margin: 0 2% 2% 0;
+    border: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 18px;
+}
+
+.sfrm input,
+.sfrm textarea {
+    width: 78%;
+    margin: 0 0 2% 0;
+}
+
+h2.nana {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.aditem img {
+    height: 250px;
+    object-fit: cover;
+}
+
+span.warn {
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
+/* pop */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cen {
+    margin: 0 auto !important;
+}
+
+label.cen2 {
+    margin: 0 auto;
+    display: block;
+}
+
+red {
+    color: red;
+}
+
+.frprt h3 {
+    width: 100%;
+}
+
+.imgprt{
+  width: 30%;
+}
+.frprt {
+    width: 65%;
+}
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+    a.albtn {
+        width: 30%;
+    }
+
+    input#file {
+        width: 60%;
+    }
+
+    .imgprt label {
+        width: 36%;
+    }
+
+    .frprt label {
+        width: 100%;
+    }
+
+    .frprt input {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    button.msbtn {
+        width: 30%;
+    }
+
+    div#dropdown-box {
+        right: 4%;
+    }
+
+    span.warn {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .imgprt,
+    .frprt {
+        width: 100%;
+    }
+
+    .avt img {
+        margin: 9px 0;
+        width: 30px;
+        object-fit: cover;
+    }
+
+    .frprt {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+
+    div#dropdown-box {
+        width: 100%;
+    }
+
+    .frprt label,
+    .frprt input {
+        margin-bottom: 1rem;
+    }
+}
